@@ -15,7 +15,7 @@
   justify-content: center;
 }
 .container {
-  height: 80vh;
+  min-height: 60vh;
     margin: 0 auto;
     padding: 20px;
     text-align: center;
@@ -45,8 +45,8 @@ h2{
     margin-bottom: 20px;
   }
   
-  input[type="text"] {
-    width: 200px;
+  #cityInput{
+    width: 20%; 
     padding: 8px;
     font-size: 20px;
     border-radius: 10px;
@@ -80,5 +80,61 @@ h2{
 
   #weatherInfo img{
     width: 300px;
+  }
+  footer {
+    background-color: #f5f5f5;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .weather-api {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #7d7d7d;
+  }
+
+  @media only screen and (max-width: 1140px)  {
+    body {
+      font-size: 400px;
+    }
+    #cityInput{
+      width: 70%;
+      font-size: 2rem;
+    }
+    i{
+      font-size: 2.3rem;
+    }
+    h1{
+      font-size: 2.5rem;
+    }
+    h2{
+      font-size: 4.5rem;
+    }
+    .logo{
+      width: 268px;
+      height: auto;
+    }
+    .container {
+      padding-top: 125px;
+      height: 74vh;
+    }
+    
+    #box p{
+      font: 2rem oblique ;
+      font-weight: bolder;
+    }
+    #weatherInfo{
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    #weatherInfo img{
+      width: 600px;
+    }
   }
   
