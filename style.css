@@ -1,0 +1,84 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+}
+.background{
+  background: linear-gradient(blue, rgb(255, 255, 255));
+  background: cover;
+}
+.navbar{
+  background-color: darkblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.container {
+  height: 80vh;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+.logo{
+  display: block;
+  width: 96px;
+  height: 87px;
+  margin: 5px;
+}
+h1{
+    font-weight: bolder;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    margin: 30px;
+}
+h2{
+    font-weight: bolder;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    margin: 30px;
+}
+
+
+  
+  .input-section {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    width: 200px;
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 10px;
+  }
+  
+  button {
+    background: none;
+    border: none;
+    color: white;
+  }
+  i{
+    font-size: 30px;
+    justify-content: center;
+  }
+  i:hover{
+    color: rgb(255, 255, 0);
+  }
+
+  p{
+    margin: 20px;
+  }
+  
+  #weatherInfo {
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 80%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #weatherInfo img{
+    width: 300px;
+  }
+  
