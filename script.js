@@ -25,9 +25,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
         const weatherHTML = `
           <h2>${cityName}</h2>
-          <p><strong>Weather:</strong> ${weatherDescription}</p>
-          <p><strong>Temperature:</strong> ${temperature}°C</p>
-          <p><strong>Humidity:</strong> ${humidity}%</p>
+          <p>Weather: ${weatherDescription}</p>
+          <p>Temperature: ${temperature}°C</p>
+          <p>Humidity: ${humidity}%</p>
         `;
 
         box.innerHTML = weatherHTML;
